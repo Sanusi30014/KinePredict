@@ -1,0 +1,39 @@
+# Build directories
+build/
+cmake-build-*/
+bin/
+lib/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Compiled files
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+
+# LibTorch
+libtorch/
+
+# Data files
+data/*.csv
+data/*.json
+*.db
+
+# Models
+models/*.pt
+models/*.pth
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
